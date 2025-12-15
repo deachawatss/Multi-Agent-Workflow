@@ -14,7 +14,7 @@
         ▼             ▼             ▼
 ┌───────────┐  ┌───────────┐  ┌───────────┐
 │  AGENT 1  │  │  AGENT 2  │  │  AGENT 3  │
-│  (Claude) │  │  (Gemini)  │  │  (Gemini)  │
+│  (Claude) │  │  (Gemini) │  | (Gemini)  │
 │  agents/1 │  │  agents/2 │  │  agents/3 │
 │   LEFT    │  │  CENTER   │  │   RIGHT   │
 └───────────┘  └───────────┘  └───────────┘
@@ -200,8 +200,8 @@ complete_message <record_id>
 ```
 
 ### System Details
-- **Server**: http://127.0.0.1:8090
-- **Admin UI**: http://127.0.0.1:8090/_/
+- **Server**: http://0.0.0.0:8090
+- **Admin UI**: http://0.0.0.0:8090/_/
 - **Auth**: Superuser deachawat@gmail.com / Wind@password9937
 - **Auto-starts**: Via `start-agents.sh`
 - **Documentation**: `docs/POCKETBASE-INBOX.md`

@@ -8,7 +8,7 @@
 The PocketBase-based multi-agent inbox system is now fully functional with authentication and all CRUD operations working.
 
 ### Architecture
-- **Backend**: PocketBase (Go binary) running on http://127.0.0.1:8090
+- **Backend**: PocketBase (Go binary) running on http://0.0.0.0:8090
 - **Database**: SQLite with inbox collection
 - **Superuser**: deachawat@gmail.com / Wind@password9937
 - **API**: REST with JWT bearer token authentication
@@ -130,7 +130,7 @@ complete_message <record_id>
 ## Server Status
 
 - ✅ PocketBase server running on :8090
-- ✅ Admin UI accessible at http://127.0.0.1:8090/_/
+- ✅ Admin UI accessible at http://0.0.0.0:8090/_/
 - ✅ inbox collection created and populated
 - ✅ All API endpoints responding correctly
 - ✅ Superuser authentication working
