@@ -1,0 +1,21 @@
+# Agent Voice Configuration
+# Maps agent identifiers to Linux espeak-ng voices
+# List available voices with: espeak-ng --voices
+# Install: sudo apt-get install espeak-ng
+
+[voices]
+main = "en-us"           # Clear, American English
+agent_1 = "en-gb"        # British male
+agent_2 = "en-gb-scotland"  # Scottish English (variant)
+agent_3 = "en-gb-x-rp"   # Received Pronunciation (Indian alternative)
+subagent = "en-gb"       # British male
+default = "en-us"        # Fallback
+
+[rate]
+# Speech rate in words per minute (default ~175, faster = 220+)
+main = 190           # Samantha slower
+agent_1 = 220
+agent_2 = 220
+agent_3 = 220
+subagent = 220
+default = 220
