@@ -10,7 +10,7 @@ The PocketBase-based multi-agent inbox system is now fully functional with authe
 ### Architecture
 - **Backend**: PocketBase (Go binary) running on http://127.0.0.1:8090
 - **Database**: SQLite with inbox collection
-- **Superuser**: nat.wrw@gmail.com / helloworld
+- **Superuser**: deachawat@gmail.com / Wind@password9937
 - **API**: REST with JWT bearer token authentication
 
 ## Verified Operations ✅
@@ -18,8 +18,8 @@ The PocketBase-based multi-agent inbox system is now fully functional with authe
 ### 1. Authentication
 ```bash
 POST /api/collections/_superusers/auth-with-password
-  identity: "nat.wrw@gmail.com"
-  password: "helloworld"
+  identity: "deachawat@gmail.com"
+  password: "Wind@password9937"
 → Returns JWT token for all subsequent requests
 ```
 
