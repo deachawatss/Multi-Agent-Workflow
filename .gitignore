@@ -55,3 +55,9 @@ secrets/
 # MCP Servers
 .playwright-mcp
 .agent-locks/
+
+# PocketBase
+pocketbase
+pb_data/
+pb_migrations/
+pocketbase.zip
