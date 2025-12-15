@@ -2,7 +2,6 @@
 name: new-feature
 description: Create implementation plan issues with context gathering
 tools: Bash, Grep, Glob, Read
-model: sonnet
 ---
 
 # new-feature
@@ -14,12 +13,12 @@ Create a GitHub plan issue with REAL context.
 Always include in issue body footer:
 ```
 ---
-🤖 **Created by**: Claude Sonnet (new-feature subagent)
+🤖 **Created by**: GLM-4.6 (new-feature subagent)
 ```
 
 When commenting on issues, include attribution:
 ```
-🤖 **Claude Sonnet** (new-feature): [comment]
+🤖 **GLM-4.6** (new-feature): [comment]
 ```
 
 ## STRICT RULES
@@ -64,7 +63,7 @@ gh issue create --title "plan: [TITLE]" --body "$(cat <<'EOF'
 - `path/file` - why
 
 ---
-🤖 **Created by**: Claude Sonnet (new-feature subagent)
+🤖 **Created by**: GLM-4.6 (new-feature subagent)
 EOF
 )"
 ```
