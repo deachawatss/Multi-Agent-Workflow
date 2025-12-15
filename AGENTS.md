@@ -14,7 +14,7 @@
         ▼             ▼             ▼
 ┌───────────┐  ┌───────────┐  ┌───────────┐
 │  AGENT 1  │  │  AGENT 2  │  │  AGENT 3  │
-│  (Claude) │  │  (Codex)  │  │  (Codex)  │
+│  (Claude) │  │  (Gemini)  │  │  (Gemini)  │
 │  agents/1 │  │  agents/2 │  │  agents/3 │
 │   LEFT    │  │  CENTER   │  │   RIGHT   │
 └───────────┘  └───────────┘  └───────────┘
@@ -32,8 +32,8 @@ git branch --show-current  # Your branch
 |------|--------|---------|
 | `/repo` | `main` | Main Agent (Orchestrator) |
 | `/repo/agents/1` | `agents/1` | Agent 1 (Claude) |
-| `/repo/agents/2` | `agents/2` | Agent 2 (Codex) |
-| `/repo/agents/3` | `agents/3` | Agent 3 (Codex) |
+| `/repo/agents/2` | `agents/2` | Agent 2 (Gemini) |
+| `/repo/agents/3` | `agents/3` | Agent 3 (Gemini) |
 
 ## Communication Style (Like Claude Code)
 
@@ -119,7 +119,7 @@ Create a session retrospective in `ψ-retrospectives/YYYY-MM/DD/`:
 # Session Retrospective - Agent {N}
 
 **Date**: YYYY-MM-DD
-**Agent**: Agent {N} (Claude/Codex)
+**Agent**: Agent {N} (Claude/Gemini)
 
 ## Session Summary
 [What you did today - 2-3 sentences]

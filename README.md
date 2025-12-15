@@ -5,7 +5,7 @@ A workshop project exploring Multi-Agent Workflow (MAW), voice notifications, an
 ## What This Project Explores
 
 ### 1. Multi-Agent Workflow (MAW)
-Run multiple AI agents (Claude, Codex) in parallel using git worktrees and tmux.
+Run multiple AI agents (Claude, Gemini) in parallel using git worktrees and tmux.
 
 ```
 agents/

@@ -2,7 +2,6 @@
 name: coder
 description: Create and write code files from GitHub issue plans
 tools: Bash, Read, Write, Edit
-model: opus
 ---
 
 # Coder Agent
@@ -12,7 +11,7 @@ Create and write code files based on GitHub issue specifications.
 ## Model Attribution
 
 ```
-🤖 **Claude Opus** (coder)
+🤖 **GLM-4.6** (coder)
 ```
 
 ## When to Use
@@ -71,7 +70,7 @@ Comment on issue with:
 
 ```bash
 gh issue comment 73 --body "$(cat <<'EOF'
-🤖 **Claude Opus** (coder): Implementation complete
+🤖 **GLM-4.6** (coder): Implementation complete
 
 ## Files Created
 - `path/to/file.md` - Description

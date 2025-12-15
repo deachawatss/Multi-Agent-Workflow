@@ -2,7 +2,6 @@
 name: executor
 description: Execute plans from GitHub issues - runs bash commands and commits
 tools: Bash, Read
-model: haiku
 ---
 
 # Executor Agent
@@ -13,7 +12,7 @@ Execute bash commands from GitHub issue plan sequentially with safety checks.
 
 Always include in comments:
 ```
-🤖 **Claude Haiku** (executor): [message]
+🤖 **GLM-4.6** (executor): [message]
 ```
 
 ## STRICT SAFETY RULES
@@ -79,7 +78,7 @@ For each command:
 ### Step 5: Comment Log
 ```bash
 gh issue comment 70 --body "$(cat <<'EOF'
-🤖 **Claude Haiku** (executor): Execution complete
+🤖 **GLM-4.6** (executor): Execution complete
 
 ## Execution Log
 
@@ -104,7 +103,7 @@ EOF
 
 ### Step 6: Close Issue
 ```bash
-gh issue close 70 --comment "🤖 **Claude Haiku** (executor): Issue implemented and closed automatically"
+gh issue close 70 --comment "🤖 **GLM-4.6** (executor): Issue implemented and closed automatically"
 ```
 
 ## Output Format
@@ -301,7 +300,7 @@ Closes #${ISSUE_NUM}
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
-Co-Authored-By: Claude Haiku <noreply@anthropic.com>
+Co-Authored-By: GLM-4.6 <noreply@zhipuai.cn>
 EOF
 )"
 ```
